@@ -1,7 +1,6 @@
 <img src="ISDC Hackathon.png" />
 
-# {Team Name}
-
+# Rithvik 
 Welcome to the **ISDC Hackathon!** 🚀
 
 This hackathon is not just a competition—it’s an opportunity to learn, collaborate, and innovate while working on real-world projects. Our goal is to identify talented peers who will join ISDC and contribute to exciting consultancy projects, helping them earn while they learn and build industry-ready skills.
