@@ -9,7 +9,7 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
-import {Link} from 'next/link'
+import Link from 'next/link'
   
 function CreateButton() {
   return (
@@ -29,7 +29,7 @@ function CreateButton() {
                     <h2 className="text-md font-bold">Generate with AI</h2>
                   </div>
                 </Link>
-                <Link href="/create-from-scratch">
+                <Link href="/editor">
                   <div className="border rounded-lg p-4 flex items-center justify-center gap-4 w-full mt-5 cursor-pointer hover:bg-gray-100">
                     <Image src="/movie.svg" alt="movie" width={40} height={40} />
                     <h2 className="text-md font-bold">Create from scratch</h2>
