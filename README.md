@@ -1,11 +1,66 @@
-<img src="ISDC Hackathon.png" />
+# Marketing Content Generator
 
-# Rithvik 
-Welcome to the **ISDC Hackathon!** 🚀
+This is a **Marketing Content Generator** application designed to help businesses easily generate high-quality content for various platforms like blogs, social media, and email campaigns. The app integrates AI-powered tools to create engaging posts, descriptions, ad copies, and more, which is ideal for small businesses looking to boost their online presence and marketing efforts.
 
-This hackathon is not just a competition—it’s an opportunity to learn, collaborate, and innovate while working on real-world projects. Our goal is to identify talented peers who will join ISDC and contribute to exciting consultancy projects, helping them earn while they learn and build industry-ready skills.
+## Features
 
-Through this event, you'll get a hands-on experience of how hackathons work. While this is an online hackathon, the collaboration, problem-solving, and teamwork you develop here will prepare you for bigger challenges, including our upcoming offline hackathon!
+- **Blog Generator**: Generate blog topic ideas and create blog content based on your niche and outline.
+- **YouTube Description Generator**: Create SEO-optimized YouTube video descriptions.
+- **Social Media Post Generators**: Generate engaging posts for Twitter, Instagram, Facebook, and LinkedIn.
+- **Ad Copy Generator**: Create high-converting ad copies for Facebook, Google, and Instagram ads.
+- **Email Subject Line Generator**: Generate compelling subject lines to improve email open rates.
+- **Local SEO Optimization**: Optimize your business for local searches by providing localized content, business details, and keywords.
+- **A/B Testing**: Generate A/B testing variations with detailed descriptions to compare performance.
+- **Referral Program Generator**: Generate a customizable referral program to boost customer referrals.
+- **Customer Segmentation**: Create detailed customer segments to target specific audiences for better marketing results.
 
-So gear up, bring your ideas to life, and show us what you’ve got! 🚀🔥
+
+## Usage
+
+This application offers multiple tools, and users can input data based on their marketing needs. Here’s how each tool works:
+
+### 1. Blog Generator
+
+- **Input**: Blog niche and outline.
+- **Output**: AI-generated blog topic ideas in bullet format.
+  
+### 2. YouTube Description Generator
+
+- **Input**: YouTube video title and key points.
+- **Output**: SEO-optimized YouTube video description with relevant keywords.
+
+### 3. Social Media Post Generators
+
+- **Input**: Topic for Twitter, Instagram, Facebook, or LinkedIn post.
+- **Output**: Engaging and optimized post for the selected platform.
+
+### 4. Ad Copy Generator
+
+- **Input**: Ad platform (Facebook, Google, Instagram) and product details.
+- **Output**: High-converting ad copy with a strong call to action.
+
+### 5. Email Subject Line Generator
+
+- **Input**: Email content summary.
+- **Output**: Five catchy subject lines designed to increase open rates.
+
+### 6. Local SEO Optimization
+
+- **Input**: Business name, address, category, targeted local keywords, and business description.
+- **Output**: SEO-optimized content for local searches, including meta descriptions, and localized content.
+
+### 7. A/B Testing
+
+- **Input**: Variations of your content (A & B), objectives, and metrics.
+- **Output**: Generate a detailed plan for running an A/B test and comparing the variations.
+
+### 8. Referral Program Generator
+
+- **Input**: Program details, rewards, and referral structure.
+- **Output**: Customizable referral program with templates and structure to encourage customer referrals.
+
+### 9. Customer Segmentation
+
+- **Input**: Customer data (demographics, behaviors, purchase history).
+- **Output**: Segments for targeted marketing campaigns.
 
