@@ -1,6 +1,7 @@
 import React from 'react'
 import SideNav from './_components/SideNav'
 import Header from './_components/Header'
+import {ClerkProvider} from "@clerk/nextjs";
 function layout({children,
 }: Readonly<{
   children: React.ReactNode;
@@ -15,6 +16,7 @@ function layout({children,
         {children}
         </div>
     </div>
+ 
   )
 }
 

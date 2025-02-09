@@ -35,8 +35,19 @@ function FormSection({selectedTemplate,userFormInput,loading}:PROPS) {
                 {item.field =='input'?
                  <Input name={item.name} required={item?.required} onChange={handleInputChange}/>
                  :item.field=='textarea'?
-                 <Textarea name={item.name} required={item?.required} onChange={handleInputChange}/>:null
-                }
+                 <Textarea name={item.name} required={item?.required} onChange={handleInputChange}/>
+                 :item.field === 'select' ? (
+                  <select
+                    name={item.name}
+                    required={item?.required}
+                    onChange={handleInputChange}
+                    className="border p-2 rounded w-full"
+                  >
+                    {item.options?.map((option, idx) => (
+                      <option key={idx} value={option}>{option}</option>
+                    ))}
+                  </select>
+                ) : null}
             </div>
           ))}
           <Button type='submit' className='w-full py-6' disabled={loading}>{loading&&<Loader2Icon className='animate-spin'/>}Generate</Button>
