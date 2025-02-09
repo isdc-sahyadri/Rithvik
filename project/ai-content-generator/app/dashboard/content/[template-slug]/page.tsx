@@ -9,6 +9,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import { chatSession } from "@/utils/AiModel";
+import { db } from "@/utils/db";
+import { AIOutput } from "@/utils/schema";
 
 function CreateNewContent() {
   const params = useParams(); 
@@ -22,6 +24,7 @@ function CreateNewContent() {
       const result = await chatSession.sendMessage(FinalAIPrompt);
       console.log(result.response.text());
       setAiOutput(result?.response.text());
+      await SaveInDb(formData,selectedTemplate?.slug,result?.response.text())
       setLoading(false)
 
   }
@@ -35,6 +38,14 @@ function CreateNewContent() {
     }
   }, [params]);
 
+  const SaveInDb=async(formData:any,slug:any,aiResp:string)=>{
+    const result=await db.insert(AIOutput).values({
+      formData:formData,
+      templateSlug:slug,
+      aiResponse:aiResp,
+    });
+    console.log(result);
+  }
   return (
     <div className="p-10">
       <Link href={'/dashboard'}>
