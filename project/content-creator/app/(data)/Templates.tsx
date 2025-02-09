@@ -143,5 +143,76 @@ export default [
         required: true
       }
     ]
+  },
+  // New Features
+  {
+    name: "Customer Segmentation Tool",
+    desc: "Automatically segment your customers based on their behavior, purchase history, demographics, etc.",
+    category: "Analytics",
+    icon: "https://cdn-icons-png.flaticon.com/128/1828/1828769.png",
+    aiPrompt: "Segment customers based on behavior, demographics, and past purchases to create personalized marketing strategies.",
+    slug: "customer-segmentation",
+    form: [
+      {
+        label: "Enter customer data",
+        field: "textarea",
+        name: "customerData",
+        required: true
+      }
+    ]
+  },
+  {
+    name: "Referral Program Generator",
+    desc: "Generate automated referral programs for small businesses.",
+    category: "Marketing",
+    icon: "https://cdn-icons-png.flaticon.com/128/2551/2551717.png",
+    aiPrompt: "Generate a referral program with rewards and conditions for customers who refer others.",
+    slug: "generate-referral-program",
+    form: [
+      {
+        label: "Enter referral program details",
+        field: "textarea",
+        name: "programDetails",
+        required: true
+      },
+      {
+        label: "Enter reward information",
+        field: "textarea",
+        name: "rewardDetails",
+        required: true
+      }
+    ]
+  },
+  {
+    name: "A/B Testing Tool",
+    desc: "Conduct A/B testing for email marketing, ads, and landing pages to optimize performance.",
+    category: "Optimization",
+    icon: "https://cdn-icons-png.flaticon.com/128/1840/1840732.png",
+    aiPrompt: "Conduct A/B testing for marketing campaigns and provide the best-performing version.",
+    slug: "ab-testing",
+    form: [
+      {
+        label: "Enter test details",
+        field: "textarea",
+        name: "testDetails",
+        required: true
+      }
+    ]
+  },
+  {
+    name: "Local SEO Optimization",
+    desc: "Optimize local search results for small businesses, including Google My Business and local directories.",
+    category: "SEO",
+    icon: "https://cdn-icons-png.flaticon.com/128/3331/3331172.png",
+    aiPrompt: "Optimize your Google My Business profile and other local directories for better visibility.",
+    slug: "local-seo-optimization",
+    form: [
+      {
+        label: "Enter business information",
+        field: "textarea",
+        name: "businessInfo",
+        required: true
+      }
+    ]
   }
 ];
